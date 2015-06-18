@@ -1,3 +1,32 @@
+##Introduction
+
+To help present and practice client and server debugging, I needed sample applications. This repo has a simple node application (forked from amirrajan/word-finder) and a subset of todomvc apps.
+
+The readme below is from the word-finder repo.
+
+##Getting Started
+
+1. Make sure you have node.js installed.
+
+2. Clone this repo.
+
+3. From the command line, `cd` into the directory for this repo.
+
+4. Run:
+
+    `npm install`
+
+5. Run:
+
+    `node server.js`
+
+6. Browse to:
+
+    `localhost:3000/public/examples/backbone`
+
+7. Open your browser's dev tools.
+
+
 ##Word Finder (MIT License)
 
 I took every english word (over 200k words) and built a little NodeJS app that will help you find words that contain specific characters.
@@ -115,7 +144,7 @@ And your app should be up on Nodejitsu.
 
 ###Documentation
 
-From heroku.com, click Documentation, then click the Getting Started button, then click Node.js from the list of options on the left...which will take you here: https://devcenter.heroku.com/articles/nodejs 
+From heroku.com, click Documentation, then click the Getting Started button, then click Node.js from the list of options on the left...which will take you here: https://devcenter.heroku.com/articles/nodejs
 
 Install Heroku toolbelt from here: https://toolbelt.heroku.com/
 
@@ -164,7 +193,7 @@ After the `.publishsettings` file is downloaded, you'll need to import it:
     azure acount import %pathtofile%
 
 Next create the site, with a git backed repository:
-    
+
     azure site create %uniquesitename% --git
 
 Deploy site:
