@@ -22,9 +22,11 @@ The readme below is from the word-finder repo.
 
 6. Browse to:
 
-    `localhost:3000/public/examples/backbone`
+    `localhost:3000/public/examples/debug`
 
 7. Open your browser's dev tools.
+
+Be sure to check out the <a href="https://developer.chrome.com/devtools/docs/console-api">console api reference</a> and <a href="https://developer.chrome.com/devtools/docs/javascript-debugging">debugging javascript documentation</a>.
 
 
 ##Word Finder (MIT License)
